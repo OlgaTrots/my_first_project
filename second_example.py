@@ -1,7 +1,7 @@
 
 
-str = 'Gutes Wetter'
-for item in str:
-    print(item, end=',\n')
+str = 'Gutes Wetter' # берем одну переменную str и  присваиваем этой переменной значение в виде строки 'Gutes Wetter'
+for item in str: # теперь пишем наше условие: хотим что каждая буква в str, а именно в строке  Gutes Wetter
+    print(item, end = ',\n') #  распечатать (print) каждую букву на отдельной строчке '\n'
 
 
